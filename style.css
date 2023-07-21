@@ -1,0 +1,124 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@400;500&display=swap');
+
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+  .head {
+      display: flex;
+      justify-content: center;
+      margin: 0.5% 0%;
+  }
+
+  @media(max-width: 768px) {
+      .head img {
+          width: 50%;
+          margin-bottom: 5%;
+      }
+  }
+  
+
+  .titel {
+      text-align: center;
+      margin: 1% auto;
+      font-size: 50px;
+      font-weight: bold;
+      line-height: 1.3;
+      max-width: 1110px;
+      padding-bottom: 5%;
+
+
+  }
+ 
+  .topic{
+    text-align: center;
+    margin: 2% auto;
+    font-style: italic;
+    color: red;
+    font-size: 16px;
+    line-height: 1.3;
+    max-width: 1110px;
+  }
+  .topic p{
+    font-weight: 500;
+  }
+  @media(max-width: 768px) {
+     .titel {
+        font-size: 35px;
+        padding: 0 1%;
+    }
+}
+@media(max-width: 350px) {
+    .titel {
+       font-size: 20px;
+       padding: 0 1%;
+   }
+}
+.qs{
+text-align: center;
+max-width: 1110px;
+margin: auto;
+margin-bottom: 10%;
+}
+.qs h2{
+    font-size: 32px;
+    font-weight: normal;
+}
+.qs button{
+    display: block;
+    width: 40%;
+    color: white;
+    background-color: #0F9597;
+    padding: 1.2% ;
+    font-size: xx-large;
+    font-family: 'Alfa Slab One', cursive;
+    border: 1px solid rgb(0, 0, 111);
+    outline: none;
+    margin: 1.5% auto;
+
+}
+@media(max-width: 768px) {
+    .qs button {
+        width: 42%;
+        padding: 0.6%;
+        margin-top: 2.5%;
+
+
+   }
+}
+@media(max-width: 415px) {
+    .qs button {
+        width: 96%;
+        padding: 0.6%;
+        margin-top: 2.5%;
+   }
+}
+.f1 {
+    font-size: 12px;
+    line-height: 1.3;
+    max-width: 1110px;
+    text-align: center;
+    margin: 1px auto;
+}
+.f2{
+    margin: 2%;
+    text-align: center;
+    font-size: 16px;
+}
+.f2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.f2 p{
+    margin-top: 2%;
+    color: rgb(77, 77, 77);
+}
